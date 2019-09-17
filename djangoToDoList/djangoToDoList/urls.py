@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from djangoToDoList.toDoList.views import views as toDoListViews
+from toDoList.views import views as toDoListViews
 from django.urls import path
 
 urlpatterns = [
